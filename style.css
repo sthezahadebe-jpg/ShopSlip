@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.list {
+    width: 55%;
+    height: auto;
+    bottom: solid 1px gray;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+}

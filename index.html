@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate 3</title>
+</head>
+
+<body>
+    <u>
+        <h1>My Shop Slip</h1>
+    </u>
+
+    <input type="text" id="itemName" placeholder="Name">
+    <input type="number" id="itemPrice" placeholder="Price">
+    <br><br>
+    <button onclick="addItemToList()">Add item in the list</button>
+    <button  onclick="removeClear()" type="reset">Clear</button>
+
+    <div class="list" id="list"></div>
+    <h3 id="total">Total: R0</h3>
+    <hr>
+    <input type="number" id="ClientMoney" placeholder="ClientMoney">
+    <br><br>
+    <button onclick="CalculateClientChange()">Calculate Client Change</button>
+    <h3 id="ClientChange">Client Change: R0</h3>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
